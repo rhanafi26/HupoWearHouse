@@ -1,0 +1,169 @@
+
+:root {
+    --deepseek-blue: #1e40af;
+    --deepseek-light: #3b82f6;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    padding: 15px 20px;
+    background-color: white !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--deepseek-blue) !important;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #333 !important;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--deepseek-blue) !important;
+}
+
+.hero-section {
+    background-color: #f8fafc;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.hero-title {
+    color: var(--deepseek-blue);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    color: #64748b;
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.featured-products {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+.section-title {
+    text-align: center;
+    color: var(--deepseek-blue);
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.product-card {
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 30px;
+    background: white;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(30, 64, 175, 0.1);
+}
+
+.product-image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: #f1f5f9;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-name {
+    color: var(--deepseek-blue);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: #1e293b;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-view {
+    background-color: var(--deepseek-blue);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-view:hover {
+    background-color: var(--deepseek-light);
+    color: white;
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-header {
+    background-color: var(--deepseek-blue);
+    color: white;
+    border-bottom: none;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+.order-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.btn-wa {
+    background-color: #25D366;
+    color: white;
+}
+
+.btn-shopee {
+    background-color: #FF5722;
+    color: white;
+}
+
+.btn-tokopedia {
+    background-color: #03AC0E;
+    color: white;
+}
+
+footer {
+    background-color: #f8fafc;
+    padding: 30px 0;
+    text-align: center;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+}
